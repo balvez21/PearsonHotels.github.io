@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+
+     <!-- En esta seccion esta el nav(Barra de navegacion) con sus elementos correspondientes-->
+    <section>
+        <div class="nav">
+            <a href="../index.html" class="logo"> PEARSON HOTEL`S </a>
+            <ul>
+                <li><a href="../index.html"> Inicio </a></li>
+                <li><a href="Snosotros.html"> Sobre Nosotros </a></li>
+                <li><a href="habitaciones.html"> Habitaciones </a></li>
+                <li><a href="formulario.html"> Contacto </a></li>  
+            </ul>
+        </div>
+    </section>
+
+     <!-- En esta seccion tenemos un div container que contiene el titulo de el formulario y el formulario de contacto
+    con sus respectivos inputs-->
+    <section>
+        <div class="divForm_container">
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <form class="form_class" name="form" action="gracias.html" method="get" >
+                <input  class="inputs" type="text"  name="Nombre"  required id="local"  minlength="4" placeholder="Nombre">
+                <input  class="inputs" type="email" name="Correo"  required placeholder="Email">
+                <input  class="inputs" type="text"  name="Asunto"  required placeholder="Asunto">
+                <input  class="inputs" type="text"  name="Mensaje" required id="Mensaje" required minlength="10" placeholder="Mensaje">
+                <input type="submit" class="boton_enviar">
+            </form>
+        </div>
+
+    </section>
+
+
+      <!-- scripts-->
+    <script src="../codeInput.js"></script>
+    <script src="../codeJS.js"></script>
+        
+        
+</body>
+</html>
