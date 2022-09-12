@@ -213,11 +213,12 @@ a dicho contenedor y a sus elementos que conforman la barra de navegacion*/
     background-color: rgb(9, 9, 57);
 } 
 
+/*Galeria creada para obtener las imagenes de las habitaciones y sus datos respectivos*/
 
 #galeria {
     width: 100%;
-    height: 1500px;
-    margin-top: 80px;
+    height: 1800px;
+    margin-top: 300px;
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -243,3 +244,42 @@ a dicho contenedor y a sus elementos que conforman la barra de navegacion*/
     color: white;
 }
 
+/*Estilos de botones de filtrado*/
+
+.inputsContainer {
+    width: 600px;
+    height: 270px;
+    padding-top: 10px;
+    z-index: 200;
+    margin-top: -2040px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    border:  1px solid rgb(167, 161, 161);
+    border-left: none;
+    border-right: none;
+}
+
+#boton {
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+#boton:hover {
+    background-color: rgb(9, 9, 57);
+} 
+
+.bottn {
+    cursor: pointer;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+.bottn:hover {
+    background-color: rgb(9, 9, 57);
+} 
+
+
+
+/*BRUNO ALVEZ - RONY SILVA*/
